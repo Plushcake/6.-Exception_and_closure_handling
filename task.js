@@ -35,5 +35,6 @@ class Triangle {
 }
 function getTriangle(a, b, c) {
   try {
-  } catch {}
+    return Triangle(a, b, c);
+  } catch (errorGetTriangle) {}
 }
