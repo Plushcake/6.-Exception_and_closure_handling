@@ -35,8 +35,7 @@ class Triangle {
 }
 function getTriangle(a, b, c) {
   try {
-    let triangle = new Triangle(a, b, c);
-    return triangle;
+    return new Triangle(a, b, c);
   } catch (errorGetTriangle) {
     return (errorGetTriangle = {
       getPerimeter: function () {
